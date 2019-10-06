@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "453088559379",
+    "firebase_url": "https://mobicheckin-bed60.firebaseio.com",
+    "project_id": "mobicheckin-bed60",
+    "storage_bucket": "mobicheckin-bed60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453088559379:android:9b01021001ed990a",
+        "android_client_info": {
+          "package_name": "pl.mobilization.checkin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453088559379-1atk31i3etv70f9dcaridfksls05u4fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ioZNJ0z5yUe378VfYWFo9dhxjTh1Ki0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453088559379-1atk31i3etv70f9dcaridfksls05u4fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453088559379:android:1e6390b4d5a37c21591ae6",
+        "android_client_info": {
+          "package_name": "pl.saramak.mobilizationcheckin2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453088559379-1atk31i3etv70f9dcaridfksls05u4fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ioZNJ0z5yUe378VfYWFo9dhxjTh1Ki0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453088559379-1atk31i3etv70f9dcaridfksls05u4fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
