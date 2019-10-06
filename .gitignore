@@ -13,3 +13,6 @@
 /captures
 .externalNativeBuild
 .cxx
+.env
+*.keystore
+mobicheckin-bed60-f48bb9b3a2ea.json

@@ -13,6 +13,7 @@ open class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
     }
 
     fun <T> observe(data: LiveData<T?>, function: (value: T) -> Unit) {
