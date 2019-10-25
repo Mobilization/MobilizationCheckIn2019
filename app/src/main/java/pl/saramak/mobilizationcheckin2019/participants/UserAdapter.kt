@@ -70,7 +70,7 @@ class UserAdapter() : RecyclerView.Adapter<UserAdapter.ViewHolder>(), android.wi
                             continue
                     }
 
-                    filtered = filtered.filter { it.last_normalized!!.toLowerCase().contains(element ?: "") || it.first_normalized!!.toLowerCase().contains(element ?: "") || it.email!!.toLowerCase().contains(element ?: "") }
+                    filtered = filtered.filter { it.last_normalized!!.toLowerCase().contains(element) || it.first_normalized!!.toLowerCase().contains(element ?: "") || it.email!!.toLowerCase().contains(element) }
 
                 }
             }

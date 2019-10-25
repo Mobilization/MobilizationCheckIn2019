@@ -15,6 +15,7 @@ import org.koin.test.get
 import org.koin.test.inject
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
+import pl.saramak.data.User
 
 @RunWith(RobolectricTestRunner::class)
 class MainViewModelUnitTest : KoinTest {
@@ -22,9 +23,10 @@ class MainViewModelUnitTest : KoinTest {
     val mainViewModel: MainViewModel by inject()
 
     class AlwysSuccessLS : LoginService{
-        override fun login(email: String, password: String): Boolean {
-            return true
+        override suspend fun login(email: String, password: String): User {
+            return User("", "")
         }
+
     }
 
     @Before

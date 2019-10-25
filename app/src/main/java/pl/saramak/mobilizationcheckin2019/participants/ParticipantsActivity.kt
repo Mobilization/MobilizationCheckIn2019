@@ -73,7 +73,7 @@ class ParticipantsActivity : BaseActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
 
-        if (resultCode == 0 && resultCode == Activity.RESULT_OK) {
+        if (resultCode == Activity.RESULT_OK) {
             data?.let {
                 val t: String = it.getStringExtra("RESULT")
                 search_text.setText(t)
